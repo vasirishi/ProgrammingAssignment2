@@ -12,7 +12,8 @@
 #######################################################
 
 makeCacheMatrix <- function(x = matrix()) {
-    cache   <<- NULL
+    cache   <- NULL
+    inverse <- NULL
     setdata <- function(y) {
         # Assign matrix to 'x', initialize 'inverse' and 'cache' to NULL
         x       <<- y
